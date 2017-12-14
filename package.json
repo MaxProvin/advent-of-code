@@ -1,0 +1,24 @@
+{
+  "name": "advent_of_code",
+  "version": "1.0.0",
+  "description": "",
+  "main": "day1.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MaxProvin/advent-of-code.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MaxProvin/advent-of-code/issues"
+  },
+  "homepage": "https://github.com/MaxProvin/advent-of-code#readme",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^4.0.1",
+    "sinon": "^4.1.3"
+  }
+}
