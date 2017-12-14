@@ -31,10 +31,9 @@ What is the solution to your captcha?
 const parseInput = (input) => {
   let digits;
   if (typeof input === 'string') digits = input.split('');
-  else if (typeof input === 'number') digits = input.toString().split('');
-  else throw new Error('input should be of type integer or string');
+  else throw new Error('input should be of type string');
   return digits.map(digit => parseInt(digit, 10));
-}
+};
 
 const solveCaptcha = (input) => {
   const inputArray = parseInput(input);
@@ -45,6 +44,6 @@ const solveCaptcha = (input) => {
     previousDigit = digit;
   });
   return count;
-}
+};
 
 module.exports = { solveCaptcha };
